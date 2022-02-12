@@ -152,7 +152,7 @@ body {
 }
 
 .header-section .header-heading {
-  font-size: 90px;
+  font-size: 60px;
   color: #fff;
   text-align: center;
 }
@@ -166,7 +166,7 @@ body {
   margin-top: 20px;
   color: #fff;
   background-color: rgba(102, 51, 153, 0.335);
-  padding: 10px 50px;
+  padding: 7px 30px;
   border-radius: 10px;
 }
 
@@ -434,12 +434,12 @@ body {
 }
 
 .services-segment-header h3 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 250%;
 }
 
 .services-segment-content {
-  font-size: 20px;
+  font-size: 15px;
 }
 /*------ End of Services Page ------*/
 
@@ -510,12 +510,20 @@ body {
 /*--- FOOTER ---*/
 .footer-area {
   text-align: center;
-  font-size: 15px;
+  font-size: 10px;
   width: 100%;
   bottom: 10px;
   padding: 10px;
   margin-bottom: 0;
   color: whitesmoke;
   text-shadow: 0 0 10px black;
+}
+
+.footer-area div {
+  padding: 25px 0;
+}
+.footer-area p {
+  padding: 0;
+  margin: 0;
 }
 /*------ End of Footer ------*/
