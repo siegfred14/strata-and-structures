@@ -50,24 +50,32 @@
 }
 
 /* header section */
-.header-section {
+.header-background {
   width: 100%;
   height: 100vh;
   background: url(img/201709200620165190constrctn14.jpg);
   background-size: cover;
+}
+
+.header-section {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  background-size: cover;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-/* .header-section */
+
 .header-section .header-heading {
-  font-size: 100px;
-  text-transform: capitalize;
+  font-size: 90px;
   color: #fff;
+  text-align: center;
 }
 
 .header-section .header-heading span {
-  color: #d5be8b;
+  color: rgba(7, 151, 247, 0.8);
 }
 
 /*--- 2. Default CSS Starts ---*/
