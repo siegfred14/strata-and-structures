@@ -49,6 +49,27 @@
   }
 }
 
+/* header section */
+.header-section {
+  width: 100%;
+  height: 100vh;
+  background: url(img/201709200620165190constrctn14.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .header-section */
+.header-section .header-heading {
+  font-size: 100px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.header-section .header-heading span {
+  color: #d5be8b;
+}
+
 /*--- 2. Default CSS Starts ---*/
 
 * {

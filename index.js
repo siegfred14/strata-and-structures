@@ -1,12 +1,17 @@
 
 // page loader js
 
-$(document).ready(function () {
-    'use strict';
+// $(document).ready(function () {
+//     'use strict';
 
-    //********* page loader js
+//     //********* page loader js
 
-    setTimeout(function () {
-        $('.loader_bg').fadeToggle();
-    }, 1500);
-})
+    
+// })
+
+setInterval(function () {
+    document.querySelector('.loader_bg');
+    // loader.fadeToggle();
+}, 1500);
+
+
