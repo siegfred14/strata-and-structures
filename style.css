@@ -460,6 +460,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 2em;
+  text-align: center;
 }
 
 .contact-segment-header h3 {
