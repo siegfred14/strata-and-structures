@@ -75,7 +75,20 @@
 }
 
 .header-section .header-heading span {
-  color: rgba(7, 151, 247, 0.8);
+  color: rgba(7, 151, 247, 0.924);
+}
+
+.header-section a {
+  font-size: 30px;
+  margin-top: 20px;
+  color: #fff;
+  background-color: rgba(102, 51, 153, 0.335);
+  padding: 10px 50px;
+  border-radius: 10px;
+}
+
+.header-section a:hover {
+  background-color: rgba(102, 51, 153, 0.637);
 }
 
 /*--- 2. Default CSS Starts ---*/
