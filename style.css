@@ -49,48 +49,6 @@
   }
 }
 
-/* header section */
-.header-background {
-  width: 100%;
-  height: 100vh;
-  background: url(img/201709200620165190constrctn14.jpg);
-  background-size: cover;
-}
-
-.header-section {
-  width: 100%;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.9);
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.header-section .header-heading {
-  font-size: 90px;
-  color: #fff;
-  text-align: center;
-}
-
-.header-section .header-heading span {
-  color: rgba(7, 151, 247, 0.924);
-}
-
-.header-section a {
-  font-size: 30px;
-  margin-top: 20px;
-  color: #fff;
-  background-color: rgba(102, 51, 153, 0.335);
-  padding: 10px 50px;
-  border-radius: 10px;
-}
-
-.header-section a:hover {
-  background-color: rgba(102, 51, 153, 0.637);
-}
-
 /*--- 2. Default CSS Starts ---*/
 
 * {
@@ -174,6 +132,48 @@ body {
 
 /*------ End of base ------*/
 
+/*------ header section ------*/
+.header-background {
+  width: 100%;
+  height: 100vh;
+  background: url(img/201709200620165190constrctn14.jpg);
+  background-size: cover;
+}
+
+.header-section {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-section .header-heading {
+  font-size: 90px;
+  color: #fff;
+  text-align: center;
+}
+
+.header-section .header-heading span {
+  color: rgba(7, 151, 247, 0.924);
+}
+
+.header-section a {
+  font-size: 30px;
+  margin-top: 20px;
+  color: #fff;
+  background-color: rgba(102, 51, 153, 0.335);
+  padding: 10px 50px;
+  border-radius: 10px;
+}
+
+.header-section a:hover {
+  background-color: rgba(102, 51, 153, 0.637);
+}
+
 /*--- MEDIA QUERIES ---*/
 
 /* Media for Large Screens*/
@@ -181,6 +181,9 @@ body {
   /* Home */
   .home-main {
     font-size: 12px;
+  }
+  .contact-map-container .map-mobile {
+    display: none;
   }
 }
 
@@ -205,13 +208,9 @@ body {
   }
 
   /* Contacts */
-  /* .contact-map-container .map-large {
-    display: block;
-  } */
-
-  /* .contact-map-container .map-mobile {
+  .contact-map-container .map-mobile {
     display: none;
-  } */
+  }
 }
 
 /* Media for Phones and Tablets */
@@ -254,10 +253,6 @@ body {
   .contact-map-container .map-large {
     display: none;
   }
-
-  .contact-map-container .map-mobile {
-    display: block;
-  }
 }
 /*------ End of Media Queries ------*/
 
@@ -278,9 +273,10 @@ body {
 .navbar {
   /* background: linear-gradient(45deg, rgb(0, 89, 255), rgb(190, 190, 236)); */
   background-color: #323232;
-  padding: 1.1%;
+  padding: 0.9%;
   position: fixed;
   width: 100%;
+  z-index: 9;
 }
 
 .navbar .navbar-brand {
@@ -449,6 +445,9 @@ body {
 
 /*--- CONTACTs PAGE ---*/
 
+.page-header-container .contact {
+  font-size: 45px;
+}
 .contact-message p {
   font-size: 20px;
   text-align: center;
@@ -489,7 +488,6 @@ body {
 }
 
 .contact-map-container .map-mobile {
-  display: none;
   height: 385px;
   width: 450px;
 }
