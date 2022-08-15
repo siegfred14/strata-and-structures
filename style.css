@@ -49,6 +49,18 @@
   }
 }
 
+/* @keyframes ani1{
+  100%{
+    opacity: 1;
+  }
+} */
+
+@keyframes ani1{
+  100%{
+    opacity: 1;
+  }
+}
+
 /*--- 2. Default CSS Starts ---*/
 
 * {
@@ -155,6 +167,8 @@ body {
   font-size: 60px;
   color: #fff;
   text-align: center;
+  opacity: 0;
+  animation: ani1 0.75s ease-out 3s forwards;
 }
 
 .header-section .header-heading span {
@@ -168,6 +182,8 @@ body {
   background-color: rgba(102, 51, 153, 0.335);
   padding: 7px 30px;
   border-radius: 10px;
+  opacity: 0;
+  animation: ani1 0.75s ease-out 4s forwards;
 }
 
 .header-section a:hover {
